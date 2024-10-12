@@ -1,0 +1,12 @@
+name: stats
+dependencies:
+  - python=3.10.14
+  - nvidia::cuda-nvcc
+  - pip
+  - pip:
+      - transformers
+      - accelerate
+      - bitsandbytes
+      - sentencepiece
+      - causal-conv1d>=1.2.0 --no-use-pep517
+      - mamba_ssm
