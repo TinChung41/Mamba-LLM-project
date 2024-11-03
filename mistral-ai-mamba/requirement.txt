@@ -1,0 +1,2 @@
+pip install mistralai==0.4.2 gradio
+export mistral_api_key=xxxxxxxxxxxxxxxxxxxxxx
